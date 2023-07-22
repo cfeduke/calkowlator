@@ -1,5 +1,7 @@
 # CalKoWlator
 
+This is a derivative of the original project which has since been removed from Github (github.com/ernokstein). I've simply forked a fork I found and rehosted it on Github pages because I am bad at math and I need this thing.
+
 Calculate hits, wounds, and nerve probabilities for Mantic's Kings of War game
 
 ## Development server
