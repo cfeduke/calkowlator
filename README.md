@@ -4,18 +4,32 @@ This is a derivative of the original project which has since been removed from G
 
 Calculate hits, wounds, and nerve probabilities for Mantic's Kings of War game
 
+## Installation
+
+nodejs packages supporting this code can be installed with:
+
+`npm install`
+
 ## Development server
 
 Runs with [Angular CLI](https://angular.io/cli). Install with `npm install -g @angular/cli` assuming you have
 nodejs already installed.
 
+`make run`
+
+_or_
+
 `NODE_OPTIONS=--openssl-legacy-provider ng serve`
 
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build
+## Deploy
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+If you've forked this, you can deploy your own copy to Github pages.
+
+`make deploy`
+
+It will end up at `https://your-github-uname.github.io/calkowlator` by default.
 
 ## Running unit tests
 
