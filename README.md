@@ -4,11 +4,12 @@ Calculate hits, wounds, and nerve probabilities for Mantic's Kings of War game
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Runs with [Angular CLI](https://angular.io/cli). Install with `npm install -g @angular/cli` assuming you have
+nodejs already installed.
 
-## Code scaffolding
+`NODE_OPTIONS=--openssl-legacy-provider ng serve`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
